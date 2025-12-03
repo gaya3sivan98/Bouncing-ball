@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Webpage</title>
+  <meta charset='UTF-8'>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <style>
+@keyframes MyFirstFrame{
+  0% {
+    top: 0;
+    animation-timing-function: ease-in;
+ }
+  25% {
+    top: 500px;
+    animation-timing-function: ease-out; 
+  }
+  50% {
+    top: 150px; 
+    animation-timing-function: ease-in;
+  }
+  70% {
+    top: 500px;
+    animation-timing-function: ease-out; 
+  }
+  85% {
+    top: 300px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 500px;
+  }
+  }
+.img{
+position:relative;
+animation: MyFirstFrame;
+animation-direction:alternate;
+animation-duration:10s;
+animation-delay:0.5s;
+animation-fill-mode: forwards;
+width:10%;
+left: 50%;
+}
+
+</style>
+</head>
+<body>
+<img class='img' src='ball.jpeg'></img>
+</body>
+</html>
