@@ -20,7 +20,7 @@
 
 <h2>🌐 Live Demo</h2>
 <p>Check out the live project:</p>
-<a href="https://your-username.github.io/ball.html" target="_blank">
+<a href="https://gaya3sivan98.github.io/Bouncing-ball/" target="_blank">
   https://your-username.github.io/ball.html
 </a>
 
